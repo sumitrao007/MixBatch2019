@@ -1,0 +1,91 @@
+function add() {
+    var res = 4 + 5;
+    console.log(res);
+}
+add();
+function add1(a, b) {
+    console.log(a + b);
+}
+add1(10, 20);
+function add3(a, b) {
+    return (a + b);
+}
+var res = add3(20, 30);
+console.log("------------------Result is -------------\n                        " + res + "             ");
+function add4(a, b) {
+    return (a + b);
+}
+var res1 = add4(40, 20);
+console.log("Addition is " + res1);
+var res3 = function (a, b) {
+    return (a * b);
+};
+console.log("Multiplication is " + res3(4, 2));
+//option parameter function
+function add5(a, b) {
+    console.log("Value of a is " + a);
+    console.log("Value of b is " + b);
+    console.log("Addition  of A & B  is " + (a + b));
+}
+add5(2, 3);
+add5(2);
+function add6(a, b, c, d) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+}
+add6(2, 3);
+add6(11, 12, 13);
+add6(11, 12, 13, 14);
+//Default Parameter Function
+function add7(basicsal, rate) {
+    if (rate === void 0) { rate = 0.2; }
+    var res = basicsal * rate;
+    console.log(res);
+}
+//add7(10000);
+add7(10000, 0.3);
+function add8(a, b, c) {
+    if (b === void 0) { b = 2; }
+    return (a + b + c);
+}
+var Add = add8(10, 7);
+console.log(Add);
+//Arrow Function
+// fat Arrow Function
+var res4 = function () {
+    console.log(4 + 5);
+};
+// console.log(res4());
+//res4();
+var res5 = function () { return console.log(5 + 5); };
+res5();
+var res6 = function (a, b) {
+    console.log(a * b);
+};
+res6(12, 12);
+var res7 = function (a, b) {
+    return (a + b);
+};
+var tempres = res7(10, 20);
+console.log(tempres);
+//Function Constructor
+var res8 = new Function("a", "b", "console.log(a+b)");
+res8(10, 100);
+var res9 = new Function("a", "b", "console.log(\"Addition is \"+(a+b))");
+res9(10, 200);
+res9("Sumit", "Raokhande");
+//Rest Parameter Function
+function myrestpara() {
+    var num = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        num[_i] = arguments[_i];
+    }
+    for (var index = 0; index < num.length; index++) {
+        var element = num[index];
+        console.log("" + element);
+    }
+}
+//myrestpara(1,2,3);
+myrestpara(1, 2, 3, 5, 6, 7);

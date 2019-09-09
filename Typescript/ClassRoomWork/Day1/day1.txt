@@ -1,0 +1,56 @@
+BASIC VERSION of Angular
+Typescript is Object Orientated Lang.
+1 Angular Js
+2 Angular 2
+Need Of TypesScript
+Bcz Angular 2 Onwords Developed in TypesScript
+History
+Developed By Mircosoft 2012
+its coding style is used like C++
+Advantages
+1 Strong static typing
+2 Find Compile Time Error 
+3 Supports 
+  - Classess
+ - Inheritance
+ - interface
+- enum
+- Function Overloading
+- Function Override
+Disadvantage
+- Browser Don't understand Typescript
+Installation
+Steps
+1 Installed Node
+2 npm install -g typescript
+ -npm= Node Package Manager
+- g = globally
+Identifier
+- Both Character & Digit are allowed
+- 1st letter should be character
+- 1st letter of digit is not allowed
+- special character are not allowed Except (_ and $ )
+- No spaces are allowed
+- No any keywords are used for identifire
+e.g. 
+var a;
+var a1;
+var a_b;
+var a$b;
+Above all are allowed
+
+Below are not allowed
+var 1a;
+var 1_a;
+var a b;
+inferred Type to mention Data type of Variable if not mentioned its by deafault take "any"
+Data types
+ - Number,string,boolean,any,undefined,null,void
+class is blue print of object
+object,state,behaviour
+Type Assertion
+1 angle bracket 
+2 as syntax
+
+
+//
