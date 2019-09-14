@@ -1,0 +1,52 @@
+what is angular
+SPA- Single Page Application
+It contain only 1head+1 body
+Angular
+ganna.com
+
+MPA- Multipage Application
+React js 
+vue js
+
+Angular Version/History
+Angular Js - 1.x.x -it is developed in Java Script(js)
+
+Angular 2- 2016- It is Developed in Typescript
+It Product of Google+Microsoft
+
+Angular 4- Dec2016- It Adds Routing Concept
+
+Angular 5- Nov2017
+
+Angular 6,7
+Latest Version Angular 8- 2018
+
+Angular Architecture
+I Explained Diagram Block
+- View- To Display End User Info
+- component - To Process A data or to apply Business logic
+- Both are Interconneted with each other of Event Binding & Data Binding
+- App Module- It is main module to register your Component,Provider,Service,Routing Module
+- Injector- It is 3rd party Liabary (like httpmodule,service,notification etc) provided by Angular
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
