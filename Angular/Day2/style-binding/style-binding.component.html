@@ -1,0 +1,18 @@
+<p>
+  style-binding works!
+</p>
+<br>
+<h1 [style.color]="'red'" >Style Binding1</h1>
+
+<h1 [style.color]="mycolor">Style Binding2</h1>
+
+<h1 [style.color]="haserror?'green':'red'">Style Binding3</h1>
+
+<h1 [style.color]="rating<=4?'green':'red'">Style Binding4</h1>
+
+<h1 [ngStyle]="mystyle">Apply Multiple Style</h1>
+
+<h1 [style.color]="rating1<4?'green':(rating1>=4 && rating1<=6)?'blue':'red'">Using Multiple Conditional Operator</h1>
+
+
+

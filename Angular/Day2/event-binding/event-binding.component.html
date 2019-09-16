@@ -1,0 +1,44 @@
+<p>
+  event-binding works!
+</p>
+
+<button (click)="onClick()">Click Me</button>
+<br><br>
+{{name}}
+
+<br><br>
+<button (click)="onClick1($event)" value="U Cliked Event">Event Occur</button><br>
+{{evetntType}} <br>
+{{evetntType1}}
+<br><br>
+<input type="text" placeholder="Enter the name....." (click)="OnInputClick($event)" ><br>
+{{name1}}
+
+<br><br>
+<input type="text" [style.background]="mystyle" (change)="onChange()" placeholder="Enter the name" >
+<br><br>
+<input type="text" (keyup)="onKeyUp()">
+
+<br><br>
+<input type="text" (keydown)="onKeydown()">
+
+<br><br>
+<button (click)="ClickEvent()">Click Me</button>
+
+<br><br>
+<button (click)="cnt==0?ClickEvent():''">Click Me1</button>
+
+<br><br>
+<button (click)="addition=addition+2+2">Calculate</button>&nbsp; {{addition}}
+
+<br><br>
+<button (click)="addition=num1+num2">Calculate</button>&nbsp; {{addition}}
+
+<br><br>
+<button (click)="onRed()">Red</button><button (click)="onBlue()">Blue</button><button (click)="ongreen()">Green</button>
+<br><br>
+
+<div [style.background]="mycolor"></div>
+
+
+

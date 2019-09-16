@@ -1,0 +1,50 @@
+Style Binding
+[style.property_Name]="Proptey_Name_ts"
+If You want apply more than one style the u can use ngStyle
+
+Class Binding
+
+A directive is a custom html element that is used to extend the power of html 
+
+  apply multiple classess angular provide ngclass
+  it is directive,is nothing but custom html attribute
+  angular provides
+
+[class]="property_name_ts"
+
+You Can Apply Multiple Class using 
+ngClass Directive
+[ngClass]="Required_ObjectName"
+
+Event Binding
+(click)="method_Name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

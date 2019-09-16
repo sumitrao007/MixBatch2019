@@ -1,0 +1,22 @@
+.text-success{
+    color:green;
+    font-size: 52px;
+}
+.text-danger{
+    color: red;
+}
+.text-warning{
+    color:yellow;
+}
+.text-style{
+    font-style: italic;
+}
+
+.on{
+
+    color:blue;
+}
+.off{
+    color: white;
+    font-style: italic;
+}
