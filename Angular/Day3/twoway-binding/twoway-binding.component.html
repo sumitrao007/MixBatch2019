@@ -1,0 +1,13 @@
+<p>
+  twoway-binding works!
+</p>
+
+<br>
+<input type="text" [(ngModel)]="username"><br>
+{{username}}
+
+<br><br>
+<input type="text" [(ngModel)]="username1">
+<button (click)="ShowText()">Show Text</button>
+<div [hidden]="ishidden"> {{username2}} </div>
+

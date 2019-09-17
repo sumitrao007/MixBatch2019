@@ -1,0 +1,31 @@
+<p>
+  ngif-directive works!
+</p>
+
+<div *ngIf="rating<4"> If Condition is True </div>
+<br><br>
+<div *ngIf="rating<4; else elsepart"> If-Else Condition is True </div>
+<!-- <div #elsepart> If Condition is False  </div> -->
+<ng-template #elsepart>You Are In Else Part </ng-template>
+
+<br><br>
+<div *ngIf="rating<4;then ifpart else elsepart1"></div>
+
+<ng-template #ifpart >If U R In Ng Template If ------ Part</ng-template>
+<ng-template #elsepart1>If U R In Ng Template Else----Part</ng-template>
+<br><br>
+
+<div *ngIf="rating<4;then ifpart1 else elsepart2"></div>
+
+<ng-template #ifpart1 >
+
+  <div *ngIf="(rating>=2 && rating<=4)"> You are (rating &gt;=2 && rating &lt;=4) </div>
+
+</ng-template>
+<ng-template #elsepart2>If U R In Ng Template Else----Part elsepart2
+
+</ng-template>
+
+
+
+

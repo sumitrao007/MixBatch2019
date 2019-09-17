@@ -1,0 +1,27 @@
+<p>
+  template-demo works!
+</p>
+
+<input #inputtxt type="text">
+
+<button (click)="onClick(inputtxt.value)">Click Me</button>
+
+<br><br>
+<input #inputtxt1 type="text">
+
+<button (click)="onClick(inputtxt1.value)">Click Me</button>
+{{Name}}
+<br>
+<input type="text" [value]="Name" >
+
+<br><br>
+<button (click)="onShowColor(divtemp)">Show Color</button>
+<div #divtemp></div>
+
+<br><br>
+<button (click)="onShowColor1(divtemp1)">Show Image</button>
+<br>
+<div #divtemp1></div>
+
+
+

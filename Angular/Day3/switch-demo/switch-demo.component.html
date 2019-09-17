@@ -1,0 +1,11 @@
+<p>
+  switch-demo works!
+</p>
+
+<div [ngSwitch]="mycolor">
+    <div *ngSwitchCase="'red'" class="mainclass" [style.background]="mycolor" >you are picked {{mycolor}} </div>
+  
+    <div *ngSwitchCase="'green'" class="mainclass" [style.background]="mycolor" >you are picked {{mycolor}} </div>
+    <div *ngSwitchDefault>Please pick color</div>
+  </div>
+  
