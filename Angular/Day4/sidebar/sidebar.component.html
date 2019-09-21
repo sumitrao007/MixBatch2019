@@ -1,0 +1,9 @@
+<p>
+  sidebar works!
+</p>
+
+<ul>
+  <li *ngFor="let item of myarr; index as i">
+     <button (click)="selectsong(i+1)"> {{item +" "}} {{i+1}} </button>
+  </li>
+</ul>
