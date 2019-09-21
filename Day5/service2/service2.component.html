@@ -1,0 +1,25 @@
+<p>
+  service2 works!
+</p>
+
+<table>
+
+  <thead>
+
+    <th>#</th>
+    <th>
+      Title
+    </th>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let item of mycourse;index as i" >
+
+      <td> {{i+1}} </td>
+      <td> {{item}} </td>
+
+    </tr>
+
+  </tbody>
+
+</table>
