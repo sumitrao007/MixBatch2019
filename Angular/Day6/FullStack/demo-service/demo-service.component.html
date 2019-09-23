@@ -1,0 +1,31 @@
+<p>
+  demo-service works!
+</p>
+
+
+
+<table>
+  
+  <thead>
+    <th> #  </th>
+    
+
+    <th> Title </th>
+    <th> Description </th>
+    <th>Price</th>
+
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let item of products;index as i ">
+      <td> {{ i+1 }} </td>
+      <td> {{item.title}} </td>  
+     
+      <td> {{item.description}} </td>
+      <td> {{item.price}} </td>
+
+    </tr>
+
+  </tbody>
+
+</table>
