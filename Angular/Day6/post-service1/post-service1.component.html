@@ -1,0 +1,40 @@
+<p>
+    post-service1 works!
+  </p>
+  <br>
+  
+  <input type="text" #inputvale ><br>
+  <button (click)="AddData(inputvale.value)">Add Data</button>
+  
+  {{createdata | json}}
+  
+  
+  <table>
+  
+    <thead>
+      <th> #  </th>
+      <th> ID </th>
+      <th>Action</th>
+      <th> Title </th>
+      <th> Body </th>
+  
+    </thead>
+    <tbody>
+  
+      <tr *ngFor="let item of posts;index as i ">
+        <td> {{ i+1 }} </td>
+        <td> {{item.id}} </td>
+        <td>
+          <button (click)="UpdateData(item)">Update</button>
+          <button (click)="Deletedata(item)">Delete</button>
+        </td>
+  
+        <td> {{item.title}}  </td>
+        <td> {{item.body}} </td>
+  
+      </tr>
+  
+    </tbody>
+  
+  </table>
+  
