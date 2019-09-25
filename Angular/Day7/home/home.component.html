@@ -1,0 +1,22 @@
+<p>
+  home works!
+</p>
+<br>
+<!-- <a href="/page1"> PAGE1  </a> -->
+<a routerLink="/page1"> PAGE1  </a>
+<a routerLink="/page2" [queryParams]="queryobj"> PAGE2  </a>
+<!-- <a [routerLink]="['/follower',45]"> FOLLOWER  </a> -->
+<a [routerLink]="['/follower',id1]"> FOLLOWER  </a>
+<a [routerLink]="['/Multiparameter',multiparameter.id,multiparameter.Name]"> MULTIPARAMETER  </a>
+<br><br>
+
+<!-- programatically Routing -->
+<hr>
+<h2>programatically Routing</h2>
+
+<button (click)="onpage1()">Page1</button>
+<button (click)="onpage2()">Page2</button>
+<button (click)="onfollower()">FOLLOWER</button>
+<button (click)="onMultiparameter()">MULTIPARAMETER</button>
+
+
